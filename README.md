@@ -1,6 +1,10 @@
 # mac_changer
 
 ```
+Installation:
+git clone https://github.com/Moniruzzaman995/mac_changer.git
+cd mac_changer
+chmod +x mac_changer.py
 Display help: python3 mac_changer.py --help
 Change MAC address for eth0: python3 mac_changer.py --interface eth0 --mac 00:11:22:33:44:33
 Another example: python3 mac_changer.py -i eth0 -m 00:11:22:33:44:61
